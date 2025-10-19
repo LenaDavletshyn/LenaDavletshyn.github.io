@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS -->
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="css/index.css" rel="stylesheet" type="text/css" />
+    <!-- FAVICON (small icon top browser) -->
+    <link
+      rel="icon"
+      type="image/png"
+      href="img/favicon/favicon-96x96.png"
+      sizes="96x96"
+    />
+    <link rel="icon" type="image/svg+xml" href="img/favicon/favicon.svg" />
+    <link rel="shortcut icon" href="img/favicon/favicon.ico" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="img/favicon/apple-touch-icon.png"
+    />
+
+    <title>Portfolio</title>
+    <meta
+      name="description"
+      content="UX/UI, communication, and interaction designer with 4 years of experience."
+    />
+    <meta name="keywords" content="Portfolio, UX/UI, design, branding" />
+    <meta name="Language" content="ENG" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>
+      <nav>
+        <a href="index.html" class="active">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <a href="index.html"><img src="img/logo.svg" alt="olda's logo" /></a>
+      <div></div>
+    </header>
+
+    <!-- MAIN -->
+    <main>
+      <section class="hero">
+        <h5>Portfolio Showcase of Olena Davletshyn</h5>
+
+        <div class="spacing-sm"></div>
+
+        <h5 class="text-align-right">Usability-Focused</h5>
+        <h1 class="text-align-right">Design That Matters</h1>
+
+        <div class="spacing-sm"></div>
+
+        <img
+          class="image height-lg"
+          src="img/hero-img.png"
+          alt="Table with laptop"
+        />
+        <a class="button" href="contact.html">
+          Contact.
+          <img src="img/arrow.svg" />
+        </a>
+      </section>
+
+      <div class="spacing-lg"></div>
+
+      <section>
+        <h5>Skills and Expertise in</h5>
+        <h1>Services</h1>
+
+        <div class="spacing-md"></div>
+
+        <div class="services-wrapper">
+          <!-- Services are added here from js/generate-services.js and based on data/services.js -->
+          <div class="services"></div>
+        </div>
+      </section>
+
+      <div class="spacing-lg"></div>
+
+      <section class="showcase">
+        <div class="card">
+          <h2>Project Showcase</h2>
+
+          <div class="spacing-md"></div>
+
+          <p>
+            Explore standout projects that blend creativity with smart
+            problem-solving. Each piece highlights bold design, refined detail,
+            and results that speak louder than words.
+          </p>
+        </div>
+        <!-- Projects are added here from js/generate-showcase.js and based on data/projects.js that have isShowcase = true -->
+      </section>
+      <a class="button" href="projects.html">
+        Projects.
+        <img src="img/arrow.svg" />
+      </a>
+
+      <div class="spacing-lg"></div>
+    </main>
+
+    <!-- SCRIPTS -->
+    <script src="data/services.js"></script>
+    <script src="js/generate-services.js"></script>
+
+    <script src="data/projects.js"></script>
+    <script src="js/generate-showcase.js"></script>
+
+    <!-- FOOTER -->
+    <footer>
+      <div>
+        <p><strong>Olena Davletshyn</strong></p>
+        <p>Vienna, Austria</p>
+      </div>
+      <div>
+        <a href="mailto:olenadavletshyn@gmail.com">olenadavletshyn@gmail.com</a>
+        <a
+          href="https://www.linkedin.com/in/olena-davletshyn-357b6b1b5/"
+          target="_blank"
+          >LinkedIn</a
+        >
+      </div>
+      <div><img src="img/logo.svg" alt="olda's logo" /></div>
+    </footer>
+    <!-- HEADER END -->
+  </body>
+</html>

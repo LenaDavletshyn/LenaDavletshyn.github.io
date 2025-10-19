@@ -1,0 +1,25 @@
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.projects .project {
+  width: 33%;
+  height: 350px;
+  box-shadow: var(--base-shadow);
+}
+
+@media only screen and (max-width: 768px) {
+  .projects .project {
+    width: 50%;
+    height: 350px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .projects .project {
+    width: 100%;
+    height: 250px;
+  }
+}

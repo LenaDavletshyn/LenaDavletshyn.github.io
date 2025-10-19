@@ -1,0 +1,55 @@
+/* --------- HERO --------- */
+.hero > * {
+  width: 100%;
+}
+
+.hero .image {
+  width: 100%;
+}
+
+#cover-image {
+  background-color: var(--white);
+}
+
+/* --------- PROJECTS --------- */
+.info {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.info .card {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: fit-content;
+}
+
+.info .left-info {
+  width: 32%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.info .right-info {
+  width: 68%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+@media only screen and (max-width: 375px) {
+  .info {
+    flex-direction: column;
+  }
+
+  .info .left-info {
+    width: 100%;
+  }
+
+  .info .right-info {
+    width: 100%;
+  }
+}

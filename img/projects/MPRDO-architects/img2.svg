@@ -1,0 +1,27 @@
+<svg width="350" height="340" viewBox="0 0 350 340" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="350" height="340" rx="55" fill="white"/>
+<rect x="28.0747" y="22.5" width="293.851" height="295" rx="21.5328" fill="white"/>
+<path d="M131.897 22.8828V317.117" stroke="black" stroke-opacity="0.25" stroke-width="0.766234"/>
+<path d="M174.807 22.8828V317.117" stroke="black" stroke-opacity="0.25" stroke-width="0.766234"/>
+<path d="M217.717 22.8828V317.117" stroke="black" stroke-opacity="0.25" stroke-width="0.766234"/>
+<path d="M28.8403 126.707H321.542" stroke="black" stroke-opacity="0.25" stroke-width="0.766234"/>
+<path d="M28.458 169.615H321.159" stroke="black" stroke-opacity="0.25" stroke-width="0.766234"/>
+<path d="M28.0747 212.525H320.776" stroke="black" stroke-opacity="0.25" stroke-width="0.766234"/>
+<path d="M35.2476 311.309L315.531 28.8945" stroke="black" stroke-opacity="0.25" stroke-width="0.766234"/>
+<path d="M34.7148 28.8945L314.998 311.842" stroke="black" stroke-opacity="0.25" stroke-width="0.766234"/>
+<rect x="28.8411" y="22.8831" width="292.701" height="294.234" rx="20.9312" stroke="black" stroke-opacity="0.25" stroke-width="0.766234"/>
+<path d="M175.192 108.699C208.621 108.699 235.724 135.97 235.724 169.615C235.724 203.26 208.621 230.53 175.192 230.53C141.763 230.53 114.659 203.26 114.659 169.615C114.659 135.97 141.763 108.699 175.192 108.699Z" stroke="black" stroke-opacity="0.25" stroke-width="0.766234"/>
+<circle cx="174.426" cy="169.999" r="134.091" stroke="black" stroke-opacity="0.25" stroke-width="0.766234"/>
+<rect x="59.4898" y="53.5335" width="230.636" height="232.169" rx="14.9416" stroke="black" stroke-opacity="0.25" stroke-width="0.766234"/>
+<rect x="77.8795" y="35.9085" width="193.857" height="268.182" rx="14.9416" stroke="black" stroke-opacity="0.25" stroke-width="0.766234"/>
+<rect x="41.1009" y="71.9222" width="268.182" height="194.623" rx="14.9416" stroke="black" stroke-opacity="0.25" stroke-width="0.766234"/>
+<rect x="130.226" y="144.055" width="14.8095" height="69.1109" fill="black"/>
+<rect x="145.035" y="124.311" width="59.2379" height="14.8095" fill="black"/>
+<rect x="162.313" y="198.355" width="29.619" height="14.8095" fill="black"/>
+<rect x="103.075" y="198.355" width="14.8095" height="14.8095" fill="black"/>
+<rect x="219.083" y="198.355" width="17.2777" height="14.8095" fill="black"/>
+<rect x="177.122" y="168.738" width="14.8095" height="14.8095" fill="black"/>
+<rect x="174.654" y="109.5" width="14.8095" height="14.8095" fill="black"/>
+<rect x="204.273" y="146.523" width="14.8095" height="66.6427" fill="black"/>
+<rect x="219.082" y="139.121" width="14.8095" height="88.8569" transform="rotate(90 219.082 139.121)" fill="black"/>
+</svg>

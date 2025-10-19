@@ -1,0 +1,347 @@
+/* --------- START FONTS --------- */
+@font-face {
+  font-family: "Nohemi";
+  src: url("../font/nohemi-extrabold.woff2") format("woff2"),
+    url("../font/nohemi-extrabold.woff") format("woff");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Nohemi";
+  src: url("../font/nohemi-semibold.woff") format("woff2"),
+    url("../font/nohemi-semibold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Nohemi";
+  src: url("../font/nohemi-medium.woff2") format("woff2"),
+    url("../font/nohemi-medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Nohemi";
+  src: url("../font/nohemi-regular.woff2") format("woff2"),
+    url("../font/nohemi-regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Nohemi";
+  src: url("../font/nohemi-light.woff2") format("woff2"),
+    url("../font/nohemi-light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+/* --------- END FONTS --------- */
+
+/* --------- BASE ELEMENTS --------- */
+:root {
+  --black: #000000;
+  --white: #ffffff;
+  --background: #fffbfa;
+  --light-dark: #eee8e6;
+
+  --border-radius-desktop: 55px;
+  --border-radius-phone: 30px;
+  --base-padding: 20px;
+  --base-shadow: 0px 2px 6px 0px #00000026;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Nohemi", sans-serif;
+  font-weight: 300;
+  color: var(--black);
+  font-size: 14px;
+  transition: all 0.2s;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: var(--background);
+  max-width: 1400px;
+  margin: auto;
+}
+
+main {
+  overflow-y: auto;
+  padding: var(--base-padding);
+}
+
+@media only screen and (max-width: 768px) {
+  * {
+    font-size: 14px;
+  }
+}
+/* --------- END BASE ELEMENTS --------- */
+
+/* --------- TYPOS --------- */
+h1 {
+  font-size: 2.8rem;
+  font-weight: 500;
+}
+
+h2 {
+  font-size: 2.4rem;
+  font-weight: 500;
+}
+
+h3 {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+h4 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+h5 {
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.125rem;
+  letter-spacing: 0%;
+}
+
+strong {
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 2.3rem;
+  }
+}
+/* --------- END TYPOS --------- */
+
+/* --------- HEADER/FOOTER --------- */
+li {
+  list-style: none;
+}
+
+header,
+footer {
+  padding: var(--base-padding);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header {
+  border-bottom: 1px solid var(--light-dark);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background-color: var(--background);
+}
+
+nav {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  gap: 15%;
+}
+
+header > div {
+  width: 30%;
+}
+
+footer > div {
+  display: flex;
+  gap: 20px;
+  width: 30%;
+}
+
+footer > div:nth-child(3) {
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+footer > div > img {
+  width: 65px;
+}
+
+nav a {
+  font-weight: 400;
+  text-decoration: none;
+}
+
+nav .active {
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 768px) {
+  header > div {
+    display: none;
+  }
+
+  nav {
+    width: 50%;
+  }
+
+  footer > div {
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  footer > div:nth-child(2) > a {
+    text-align: center;
+  }
+
+  footer > div {
+    gap: 10px;
+    width: fit-content;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  footer {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    text-align: center;
+  }
+
+  footer > div {
+    width: 100%;
+  }
+
+  footer > div:nth-child(3) {
+    align-items: center;
+  }
+
+  nav {
+    gap: 12px;
+  }
+}
+/* --------- END HEADER/FOOTER --------- */
+
+/* --------- GENERAL ELEMENTS --------- */
+a:hover {
+  opacity: 0.6;
+}
+
+.button {
+  text-transform: uppercase;
+  font-size: 1.7rem;
+  font-weight: 300;
+  background-color: var(--black);
+  color: var(--white);
+  width: 100%;
+  border-radius: 999px;
+  padding: 10px 40px;
+  text-decoration: none;
+
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+.button > img {
+  width: 20px;
+}
+
+.spacing-sm {
+  height: 2rem;
+}
+
+.spacing-md {
+  height: 4rem;
+}
+
+.spacing-lg {
+  height: 6rem;
+}
+
+.text-align-right {
+  text-align: right;
+}
+
+.image {
+  height: 100px;
+  border-radius: var(--border-radius-desktop);
+  object-fit: cover;
+  display: block;
+  box-shadow: var(--base-shadow);
+}
+
+.image-shadow {
+  box-shadow: var(--base-shadow);
+  border-radius: var(--border-radius-desktop);
+}
+
+.image.height-lg {
+  height: 600px;
+}
+
+.card {
+  background-color: var(--white);
+  padding: 30px;
+  border-radius: var(--border-radius-desktop);
+  box-shadow: var(--base-shadow);
+}
+
+.card.dark {
+  background-color: var(--black);
+}
+
+.card.dark > * {
+  color: var(--white);
+}
+
+.card-image {
+  padding: 0;
+}
+
+.card-image > img {
+  border-radius: var(--border-radius-desktop);
+}
+
+@media only screen and (max-width: 768px) {
+  .image.height-lg {
+    height: 400px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .image.height-lg {
+    height: 300px;
+  }
+
+  .service {
+    padding: 30px;
+  }
+
+  .image {
+    border-radius: var(--border-radius-phone);
+  }
+
+  .card {
+    border-radius: var(--border-radius-phone);
+  }
+
+  .card-image > img {
+    border-radius: var(--border-radius-phone);
+  }
+
+  .image-shadow {
+    border-radius: var(--border-radius-phone);
+  }
+}
+/* --------- GENERAL ELEMENTS --------- */

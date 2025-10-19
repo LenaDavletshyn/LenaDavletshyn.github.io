@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="1000"><style>
+    #light-icon {
+      display: inline;
+    }
+    #dark-icon {
+      display: none;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      #light-icon {
+        display: none;
+      }
+      #dark-icon {
+        display: inline;
+      }
+    }
+  </style><g id="light-icon"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="1000"><g><g transform="matrix(41.666666666666664,0,0,41.666666666666664,0,125)"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="18"><svg width="24" height="18" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M23.3292 12.3496V16.7896H19.0992V12.3496H23.3292Z" fill="black"></path>
+<path d="M15.79 11.4173C15.79 15.3248 12.82 17.7773 8.05005 17.7773C3.07755 17.7773 0.107544 15.1073 0.107544 10.5998V0.789844H3.87254V5.12484C4.64504 2.15484 7.09004 0.339844 10.45 0.339844C13.945 0.339844 16.2775 2.31234 16.2775 5.27484C16.2775 8.34984 13.765 10.2173 9.61754 10.2173H3.87254V10.5998C3.87254 13.0973 5.48504 14.6348 8.12504 14.6348C10.81 14.6348 12.0325 13.3823 12.0325 11.4173H15.79ZM3.87254 7.57734H9.40754C11.4475 7.57734 12.5275 6.87234 12.5275 5.52984C12.5275 4.11984 11.32 3.33234 9.16004 3.33234C6.08504 3.33234 3.87254 4.91484 3.87254 7.10484V7.57734Z" fill="black"></path>
+</svg></svg></g></g></svg></g><g id="dark-icon"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="1000"><g><g transform="matrix(41.666666666666664,0,0,41.666666666666664,0,125)"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="18"><svg width="24" height="18" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M23.3292 12.3896V16.8296H19.0992V12.3896H23.3292Z" fill="white"></path>
+<path d="M15.79 11.4574C15.79 15.3649 12.82 17.8174 8.05005 17.8174C3.07755 17.8174 0.107544 15.1474 0.107544 10.6399V0.829883H3.87254V5.16488C4.64504 2.19488 7.09004 0.379883 10.45 0.379883C13.945 0.379883 16.2775 2.35238 16.2775 5.31488C16.2775 8.38988 13.765 10.2574 9.61754 10.2574H3.87254V10.6399C3.87254 13.1374 5.48504 14.6749 8.12504 14.6749C10.81 14.6749 12.0325 13.4224 12.0325 11.4574H15.79ZM3.87254 7.61738H9.40754C11.4475 7.61738 12.5275 6.91238 12.5275 5.56988C12.5275 4.15988 11.32 3.37238 9.16004 3.37238C6.08504 3.37238 3.87254 4.95488 3.87254 7.14488V7.61738Z" fill="white"></path>
+</svg></svg></g></g></svg></g></svg>

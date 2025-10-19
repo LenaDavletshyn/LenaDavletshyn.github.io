@@ -1,0 +1,132 @@
+/* --------- HERO --------- */
+.hero > * {
+  width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+  .image-2 {
+    display: none;
+  }
+}
+
+/* --------- SERVICES --------- */
+.services-wrapper {
+  width: calc(100% + var(--base-padding));
+  overflow-x: scroll;
+  padding: var(--base-padding) 10px;
+}
+
+.services {
+  display: flex;
+  gap: 25px;
+  width: fit-content;
+  padding-right: var(--base-padding);
+}
+
+.service {
+  width: 350px;
+}
+
+.service > p {
+  font-weight: 300;
+}
+
+.service > div {
+  display: flex;
+  align-items: baseline;
+  gap: 5px;
+  margin-top: 10px;
+}
+
+@media only screen and (max-width: 375px) {
+  .service {
+    width: 250px;
+    gap: 3px;
+  }
+}
+
+/* --------- PROJECT SHOWCASE --------- */
+.showcase {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0;
+  box-sizing: border-box;
+  height: 800px;
+}
+
+.project {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  border-radius: var(--border-radius-desktop);
+}
+
+.project:hover {
+  cursor: pointer;
+}
+
+.project .image {
+  width: 100%;
+  height: 100%;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.showcase .project-1 {
+  grid-row: span 3;
+}
+
+.showcase .project-2,
+.showcase .project-3 {
+  grid-row: span 2;
+}
+
+/* Overlay setup */
+.project .overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 15px;
+}
+
+.project .overlay p {
+  font-weight: 300;
+  font-size: 1.5rem;
+  color: var(--white);
+}
+
+/* Hover effects */
+.project:hover .overlay {
+  opacity: 1;
+}
+
+.project:hover img {
+  transform: scale(1.05);
+}
+
+@media only screen and (max-width: 768px) {
+  .showcase {
+    height: 500px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .showcase {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+  }
+
+  .showcase .project {
+    border-radius: var(--border-radius-phone);
+  }
+}
