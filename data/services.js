@@ -15,10 +15,10 @@ servicesData = {
     },
     {
       title: "Graphic Design",
-      description: `Designing modern, responsive, and visually engaging interfaces with a focus on typography,
-      color systems, layouts, and interaction patterns. Services include style guides, design systems, and 
-      pixel-perfect components that ensure brand consistency and seamless user experiences across web and 
-      mobile platforms.`,
+      description: `Creating visually cohesive and impactful designs that communicate brand 
+      identity across print and digital media. Focus areas include composition, typography, 
+      color theory, and visual hierarchy. Services cover brand development, marketing materials, 
+      and campaign visuals that ensure consistency, clarity, and aesthetic excellence.`,
     },
     {
       title: "Strategy",
