@@ -253,6 +253,7 @@ a:hover {
   background-color: var(--white);
   color: var(--black);
   border: 2px solid var(--black);
+  opacity: 1;
 }
 
 .button > img {
