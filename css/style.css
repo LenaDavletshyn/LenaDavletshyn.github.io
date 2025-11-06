@@ -76,9 +76,19 @@ main {
   padding: var(--base-padding);
 }
 
+img {
+  border-radius: var(--border-radius-desktop);
+}
+
 @media only screen and (max-width: 768px) {
   * {
     font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  img {
+    border-radius: var(--border-radius-phone);
   }
 }
 /* --------- END BASE ELEMENTS --------- */
