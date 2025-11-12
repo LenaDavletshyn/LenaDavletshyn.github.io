@@ -325,7 +325,11 @@ a:hover {
 .card-image > img {
   border-radius: var(--border-radius-desktop);
 }
-
+@media only screen and (max-width: 500px) {
+  .card-image > img {
+    border-radius: var(--border-radius-phone);
+  }
+}
 @media only screen and (max-width: 768px) {
   .image.height-lg {
     height: 400px;
