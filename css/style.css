@@ -91,14 +91,6 @@ img {
     border-radius: 0px;
   }
 }
-.img-special {
-  border-radius: var(--border-radius-desktop);
-}
-@media only screen and (max-width: 500px) {
-  .img-special {
-    border-radius: var(--border-radius-phone);
-  }
-}
 
 /* --------- END BASE ELEMENTS --------- */
 
