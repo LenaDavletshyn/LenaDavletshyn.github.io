@@ -48,7 +48,7 @@
   --light-dark: #eee8e6;
 
   --border-radius-desktop: 55px;
-  --border-radius-phone: 20px;
+  --border-radius-phone: 25px;
   --base-padding: 20px;
   --base-shadow: 0px 2px 6px 0px #00000026;
 }
@@ -88,7 +88,7 @@ img {
 
 @media only screen and (max-width: 500px) {
   img {
-    border-radius: 10px;
+    border-radius: 0px;
   }
 }
 /* --------- END BASE ELEMENTS --------- */
