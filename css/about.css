@@ -18,14 +18,6 @@
     border-radius: var(--border-radius-phone);
   }
 }
-.left-info .image {
-  border-radius: var(--border-radius-desktop);
-}
-@media only screen and (max-width: 500px) {
-  .left-info .image {
-    border-radius: var(--border-radius-phone);
-  }
-}
 
 .info .right-info {
   width: 68%;
