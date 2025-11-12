@@ -88,7 +88,7 @@ img {
 
 @media only screen and (max-width: 500px) {
   img {
-    border-radius: var(--border-radius-phone);
+    border-radius: 10px;
   }
 }
 /* --------- END BASE ELEMENTS --------- */
