@@ -298,7 +298,11 @@ a:hover {
   display: block;
   box-shadow: var(--base-shadow);
 }
-
+@media only screen and (max-width: 500px) {
+  .image {
+    border-radius: var(--border-radius-phone);
+  }
+}
 .image-shadow {
   box-shadow: var(--base-shadow);
   border-radius: var(--border-radius-desktop);
