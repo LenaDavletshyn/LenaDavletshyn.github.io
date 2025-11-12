@@ -20,7 +20,7 @@ function createShowcase(data) {
 
   document.getElementById("project-title").textContent = project.title;
   document.getElementById("cover-image").src =
-    "../img/projects/" + project.id + "/" + project.cover_image;
+    "img/projects/" + project.id + "/" + project.cover_image;
   document.getElementById("service").textContent = project.service;
   document.getElementById("subtitle").textContent = project.subtitle;
 
@@ -36,7 +36,7 @@ function createShowcase(data) {
     if (cardInfo.title === undefined && cardInfo.text === undefined) {
       const image = document.createElement("img");
       image.src = "img/projects/" + id + "/" + cardInfo.image;
-      image.classList.add("image-shadow");
+      image.classList.add("image");
       leftInfoContainer.append(image);
     } else {
       const card = document.createElement("div");
@@ -78,7 +78,7 @@ function createShowcase(data) {
     if (cardInfo.title === undefined && cardInfo.text === undefined) {
       const image = document.createElement("img");
       image.src = "img/projects/" + id + "/" + cardInfo.image;
-      image.classList.add("image-shadow");
+      image.classList.add("image");
       rightInfoContainer.append(image);
     } else {
       const card = document.createElement("div");

@@ -76,19 +76,9 @@ main {
   padding: var(--base-padding);
 }
 
-img {
-  border-radius: var(--border-radius-desktop);
-}
-
 @media only screen and (max-width: 768px) {
   * {
     font-size: 14px;
-  }
-}
-
-@media only screen and (max-width: 500px) {
-  img {
-    border-radius: 0px;
   }
 }
 
@@ -293,8 +283,15 @@ a:hover {
 }
 
 .image {
-  height: 100px;
+  min-height: 100px;
   border-radius: var(--border-radius-desktop);
+  object-fit: cover;
+  display: block;
+  box-shadow: var(--base-shadow);
+}
+.image-special {
+  min-height: 100px;
+  border-radius: 10px;
   object-fit: cover;
   display: block;
   box-shadow: var(--base-shadow);
@@ -303,10 +300,9 @@ a:hover {
   .image {
     border-radius: var(--border-radius-phone);
   }
-}
-.image-shadow {
-  box-shadow: var(--base-shadow);
-  border-radius: var(--border-radius-desktop);
+  .image-special {
+    border-radius: 0;
+  }
 }
 
 .image.height-lg {
@@ -355,19 +351,11 @@ a:hover {
     padding: 30px;
   }
 
-  .image {
-    border-radius: var(--border-radius-phone);
-  }
-
   .card {
     border-radius: var(--border-radius-phone);
   }
 
   .card-image > img {
-    border-radius: var(--border-radius-phone);
-  }
-
-  .image-shadow {
     border-radius: var(--border-radius-phone);
   }
 }
