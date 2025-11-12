@@ -27,7 +27,14 @@
 .right-info > .last-card {
   display: none;
 }
-
+.about-hero {
+  border-radius: var(--border-radius-desktop);
+}
+@media only screen and (max-width: 500px) {
+  .about-hero {
+    border-radius: var(--border-radius-phone);
+  }
+}
 .two-cards {
   display: flex;
   flex-direction: column;
